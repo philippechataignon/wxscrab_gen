@@ -84,7 +84,7 @@ Round_destroy(Round r)
 void
 Round_setword(Round r, tile_t* c)
 {
-    strncpy((char*)r->word,(char*)c,ROUND_INTERNAL_MAX);
+    strncpy((char*)r->word,(char*)c,ROUND_INTERNAL_MAX-1);
 }
 
 void
