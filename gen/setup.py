@@ -1,5 +1,7 @@
-from distutils.core import setup, Extension
-setup(name="dic", version="2.0.0",
+from setuptools import setup, Extension
+setup(
+    name="dic",
+    version="2.0.0",
     author='Philippe Chataignon',
     author_email='philippe@chataignon.net',
     maintainer='Philippe Chataignon',
