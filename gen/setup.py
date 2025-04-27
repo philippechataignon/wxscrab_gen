@@ -2,7 +2,7 @@ from setuptools import setup, Extension
 
 setup(
     name="dic",
-    version="2.0.0",
+    version="2.0.1",
     author='Philippe Chataignon',
     author_email='philippe@chataignon.net',
     maintainer='Philippe Chataignon',
