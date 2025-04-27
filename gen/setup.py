@@ -1,4 +1,5 @@
 from setuptools import setup, Extension
+
 setup(
     name="dic",
     version="2.0.0",
