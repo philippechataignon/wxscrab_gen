@@ -11,7 +11,7 @@ import sys
 import dic
 
 app = application = bottle.Bottle()
-dico = "ods8"
+dico = "ods9"
 
 d = dic.Dico()
 error = dic.Dic_init(d, f"../dic/{dico}.dico")
